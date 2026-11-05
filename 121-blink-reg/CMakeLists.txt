@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.15)
 set(PICO_BOARD pico)
 set(PICO_PLATFROM rp2040)
 include(pico_sdk_import.cmake)
-project(121-blink-reg)
+project(121_blink_reg)
 pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
